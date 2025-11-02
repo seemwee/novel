@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Визуальная новелла</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <div id="menu">
+    <h1>💫 Визуальная новелла</h1>
+    <button id="start-btn">Начать игру</button>
+    <button id="continue-btn">Продолжить</button>
+    <button id="donate-btn">Поддержать автора ⭐</button>
+  </div>
+
+  <div id="game" class="hidden">
+    <img id="background" src="assets/bg_room.png" class="bg">
+    <img id="character" src="assets/char_normal.png" class="char hidden">
+    <div id="dialogue-box">
+      <p id="dialogue-text"></p>
+    </div>
+    <div id="choices"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
